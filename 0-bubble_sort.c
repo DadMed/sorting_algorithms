@@ -1,28 +1,27 @@
 #include "sort.h"
-#include <stdbool.h>
 
 /**
- * swap_ints - Exchange the values of two integers within an array.
- * @a: Pointer to the first integer for swapping.
- * @b: Pointer to the second integer for swapping.
+ * swap_ints - Swap two integers in an array.
+ * @a: The first integer to swap.
+ * @b: The second integer to swap.
  */
-
 void swap_ints(int *a, int *b)
 {
-	int temp;
+	int tmp;
 
-	temp = *a;
+	tmp = *a;
 	*a = *b;
-	*b = temp;
+	*b = tmp;
 }
 
 /**
- * bubble_sort - Sorts an array of integers in ascending order using the Bubble Sort algorithm.
+ * bubble_sort - Sorts an array of integers in ascending order.
  * @array: Array of integers to be sorted.
  * @size: Size of the array.
  *
- * Description: This function implements the Bubble Sort algorithm to arrange
- * the elements in ascending order. It also prints the array after each swap.
+ * Description: Implements the Bubble Sort algorithm to arrange
+ *              the elements in ascending order. Prints the array
+ *              after each swap.
  */
 
 void bubble_sort(int *array, size_t size)
