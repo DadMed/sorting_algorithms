@@ -1,1 +1,1 @@
-this is alx sorting algorithms readme
+this is my SORTING ALGORITHM readme

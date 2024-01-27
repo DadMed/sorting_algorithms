@@ -1,10 +1,11 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * swap_ints - Swaps two integers in an array.
+ * @a: Pointer to the first integer.
+ * @b: Pointer to the second integer.
  */
+
 void swap_ints(int *a, int *b)
 {
 	int tmp;
